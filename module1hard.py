@@ -5,93 +5,15 @@ sort_students = sorted(students)
 student_grades = dict(zip(sort_students, grades))
 print(student_grades)
 
-
-name = input('Name of student: ')
-if name == 'Aaron':
-    print('Aaron: ', sum(grades[0]) / len(grades[0]))
-
-if name == 'Bilbo':
-    print('Bilbo: ', sum(grades[1]) / len(grades[1]))
-
-if name == 'Johhny':
-    print('Johhny: ', sum(grades[2]) / len(grades[2]))
-
-if name == 'Khendrik':
-    print('Khendrik: ', sum(grades[3]) / len(grades[3]))
-
-if name == 'Steve':
-    print('Steve: ', sum(grades[4]) / len(grades[4]))
-
-
-
-name = input('Name of student: ')
-if name == 'Aaron':
-    print('Aaron: ', sum(grades[0]) / len(grades[0]))
-
-if name == 'Bilbo':
-    print('Bilbo: ', sum(grades[1]) / len(grades[1]))
-
-if name == 'Johhny':
-    print('Johhny: ', sum(grades[2]) / len(grades[2]))
-
-if name == 'Khendrik':
-    print('Khendrik: ', sum(grades[3]) / len(grades[3]))
-
-if name == 'Steve':
-    print('Steve: ', sum(grades[4]) / len(grades[4]))
-
-
-
-name = input('Name of student: ')
-if name == 'Aaron':
-    print('Aaron: ', sum(grades[0]) / len(grades[0]))
-
-if name == 'Bilbo':
-    print('Bilbo: ', sum(grades[1]) / len(grades[1]))
-
-if name == 'Johhny':
-    print('Johhny: ', sum(grades[2]) / len(grades[2]))
-
-if name == 'Khendrik':
-    print('Khendrik: ', sum(grades[3]) / len(grades[3]))
-
-if name == 'Steve':
-    print('Steve: ', sum(grades[4]) / len(grades[4]))
-
-
-
-name = input('Name of student: ')
-if name == 'Aaron':
-    print('Aaron: ', sum(grades[0]) / len(grades[0]))
-
-if name == 'Bilbo':
-    print('Bilbo: ', sum(grades[1]) / len(grades[1]))
-
-if name == 'Johhny':
-    print('Johhny: ', sum(grades[2]) / len(grades[2]))
-
-if name == 'Khendrik':
-    print('Khendrik: ', sum(grades[3]) / len(grades[3]))
-
-if name == 'Steve':
-    print('Steve: ', sum(grades[4]) / len(grades[4]))
-
-
-
-name = input('Name of student: ')
-if name == 'Aaron':
-    print('Aaron: ', sum(grades[0]) / len(grades[0]))
-
-if name == 'Bilbo':
-    print('Bilbo: ', sum(grades[1]) / len(grades[1]))
-
-if name == 'Johhny':
-    print('Johhny: ', sum(grades[2]) / len(grades[2]))
-
-if name == 'Khendrik':
-    print('Khendrik: ', sum(grades[3]) / len(grades[3]))
-
-if name == 'Steve':
-    print('Steve: ', sum(grades[4]) / len(grades[4]))
-
-
+while 1 > 0:
+    name = input('Name of student: ')
+    if name == 'Aaron':
+        print('Aaron: ', sum(grades[0]) / len(grades[0]))
+    if name == 'Bilbo':
+        print('Bilbo: ', sum(grades[1]) / len(grades[1]))
+    if name == 'Johhny':
+        print('Johhny: ', sum(grades[2]) / len(grades[2]))
+    if name == 'Khendrik':
+        print('Khendrik: ', sum(grades[3]) / len(grades[3]))
+    if name == 'Steve':
+        print('Steve: ', sum(grades[4]) / len(grades[4]))
